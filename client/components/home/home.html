@@ -1,0 +1,117 @@
+
+<style>
+div{
+  color: #F47144;
+
+}
+.container {
+display:flex;
+align-items: center;
+height:100px;
+flex-direction: row;
+}
+
+
+.logo_container{
+  height:30px;
+  font-size: 36px;
+  color:#F47144;
+  align-self: center;
+  flex-grow: 2;
+  width:60%;
+  text-align: center;
+}
+.logo {
+  background: lightgray;
+  padding: 20px;
+
+}
+.sign-in-button {
+  align-self: flex-start;
+    color:#F1552E;
+    width:20%;
+    padding: 0 40px;
+}
+.left-space {
+  width:20%;
+}
+.landing-panel {
+  background-color: lightgray;
+}
+button {
+  background-color: #699C1C;
+  border:none;
+  color: white;
+}
+.blurb {
+  text-align: center;
+}
+
+section {
+  height:200px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+</style>
+<nav>
+  <div class="container">
+  <div class="left-space"> </div>
+  <div class="logo_container"> <div class="logo"> logo</div></div>
+  <div class="sign-in-button">  sign-in </div>
+</div>
+</nav>
+
+    <div class="col-lg-8  col-md-8 col-sm-8 col-xs-12 text-center col-lg-offset-2">
+    <div class="landing-panel center-block">
+    <h1 class="section-title text-center"> MDCL</h1>
+    <h4 class="text-center">Where Researchers come together</h4>
+
+        <div class="landing-panel center-block">
+
+
+             <p>Username</p>
+            <input type="text" value="username" ng-model="newUser.username" maxlength="40"/>
+
+            <p>Enter Your Email</p>
+            <input type="email" value="email" ng-model="newUser.email"/>
+
+            <p>Select Your Password</p>
+            <input type="password" value="password" ng-model="newUser.user_password" /> <br>
+
+            <button class="cta-button" ng-click="createUser(newUser)">Sign Up</button>
+        </div>
+
+
+</div>
+<section >
+   <div class="blurb">Researchers in Europe America and Australia are using MDCL as their network</div>
+</section>
+<section class ="values">
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</section>
+
+<footer></footer>
+
+
+
+    <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
+        <div class="landing-panel center-block">
+            <h3 class="section-title">Have an account? Login!</h3>
+            <h3>Your Username or Email</h3>
+            <input type="text" ng-model="existingUser.loginName" />
+
+            <h3>Your Password</h3>
+            <input type="password" ng-model="existingUser.password" /> <br>
+
+
+
+            <button class="cta-button" ng-click="logUserIn(existingUser)">SIGN IN</button>
+        </div>
+    </div>
+
+</div>
