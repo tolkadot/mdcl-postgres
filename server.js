@@ -1,4 +1,4 @@
-var var compass = require('compass'), express = require('express')();
+var express = require('express');
 var app = express(); //create instance of app
 var bodyParser = require('body-parser');
 var db = require('./server/database/database.js');
