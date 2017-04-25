@@ -1,16 +1,16 @@
-/* line 1, ../sass/shared/_normalize.sass */
+/* line 1, ../../../sass/shared/_normalize.sass */
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
 }
 
-/* line 7, ../sass/shared/_normalize.sass */
+/* line 7, ../../../sass/shared/_normalize.sass */
 body {
   margin: 0;
 }
 
-/* line 11, ../sass/shared/_normalize.sass */
+/* line 11, ../../../sass/shared/_normalize.sass */
 article,
 aside,
 details,
@@ -26,7 +26,7 @@ summary {
   display: block;
 }
 
-/* line 26, ../sass/shared/_normalize.sass */
+/* line 26, ../../../sass/shared/_normalize.sass */
 audio,
 canvas,
 progress,
@@ -35,63 +35,63 @@ video {
   vertical-align: baseline;
 }
 
-/* line 34, ../sass/shared/_normalize.sass */
+/* line 34, ../../../sass/shared/_normalize.sass */
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
-/* line 39, ../sass/shared/_normalize.sass */
+/* line 39, ../../../sass/shared/_normalize.sass */
 [hidden],
 template {
   display: none;
 }
 
-/* line 44, ../sass/shared/_normalize.sass */
+/* line 44, ../../../sass/shared/_normalize.sass */
 a {
   background-color: transparent;
 }
 
-/* line 48, ../sass/shared/_normalize.sass */
+/* line 48, ../../../sass/shared/_normalize.sass */
 a:active,
 a:hover {
   outline: 0;
 }
 
-/* line 53, ../sass/shared/_normalize.sass */
+/* line 53, ../../../sass/shared/_normalize.sass */
 abbr[title] {
   border-bottom: 1px dotted;
 }
 
-/* line 57, ../sass/shared/_normalize.sass */
+/* line 57, ../../../sass/shared/_normalize.sass */
 b,
 strong {
   font-weight: bold;
 }
 
-/* line 62, ../sass/shared/_normalize.sass */
+/* line 62, ../../../sass/shared/_normalize.sass */
 dfn {
   font-style: italic;
 }
 
-/* line 66, ../sass/shared/_normalize.sass */
+/* line 66, ../../../sass/shared/_normalize.sass */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-/* line 71, ../sass/shared/_normalize.sass */
+/* line 71, ../../../sass/shared/_normalize.sass */
 mark {
   background: #ff0;
   color: #000;
 }
 
-/* line 76, ../sass/shared/_normalize.sass */
+/* line 76, ../../../sass/shared/_normalize.sass */
 small {
   font-size: 80%;
 }
 
-/* line 80, ../sass/shared/_normalize.sass */
+/* line 80, ../../../sass/shared/_normalize.sass */
 sub,
 sup {
   font-size: 75%;
@@ -100,43 +100,43 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 88, ../sass/shared/_normalize.sass */
+/* line 88, ../../../sass/shared/_normalize.sass */
 sup {
   top: -0.5em;
 }
 
-/* line 92, ../sass/shared/_normalize.sass */
+/* line 92, ../../../sass/shared/_normalize.sass */
 sub {
   bottom: -0.25em;
 }
 
-/* line 96, ../sass/shared/_normalize.sass */
+/* line 96, ../../../sass/shared/_normalize.sass */
 img {
   border: 0;
 }
 
-/* line 100, ../sass/shared/_normalize.sass */
+/* line 100, ../../../sass/shared/_normalize.sass */
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* line 104, ../sass/shared/_normalize.sass */
+/* line 104, ../../../sass/shared/_normalize.sass */
 figure {
   margin: 1em 40px;
 }
 
-/* line 108, ../sass/shared/_normalize.sass */
+/* line 108, ../../../sass/shared/_normalize.sass */
 hr {
   box-sizing: content-box;
   height: 0;
 }
 
-/* line 113, ../sass/shared/_normalize.sass */
+/* line 113, ../../../sass/shared/_normalize.sass */
 pre {
   overflow: auto;
 }
 
-/* line 117, ../sass/shared/_normalize.sass */
+/* line 117, ../../../sass/shared/_normalize.sass */
 code,
 kbd,
 pre,
@@ -145,7 +145,7 @@ samp {
   font-size: 1em;
 }
 
-/* line 125, ../sass/shared/_normalize.sass */
+/* line 125, ../../../sass/shared/_normalize.sass */
 button,
 input,
 optgroup,
@@ -156,18 +156,18 @@ textarea {
   margin: 0;
 }
 
-/* line 135, ../sass/shared/_normalize.sass */
+/* line 135, ../../../sass/shared/_normalize.sass */
 button {
   overflow: visible;
 }
 
-/* line 139, ../sass/shared/_normalize.sass */
+/* line 139, ../../../sass/shared/_normalize.sass */
 button,
 select {
   text-transform: none;
 }
 
-/* line 144, ../sass/shared/_normalize.sass */
+/* line 144, ../../../sass/shared/_normalize.sass */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -176,80 +176,85 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/* line 152, ../sass/shared/_normalize.sass */
+/* line 152, ../../../sass/shared/_normalize.sass */
 button[disabled],
 html input[disabled] {
   cursor: default;
 }
 
-/* line 157, ../sass/shared/_normalize.sass */
+/* line 157, ../../../sass/shared/_normalize.sass */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-/* line 163, ../sass/shared/_normalize.sass */
+/* line 163, ../../../sass/shared/_normalize.sass */
 input {
   line-height: normal;
 }
 
-/* line 167, ../sass/shared/_normalize.sass */
+/* line 167, ../../../sass/shared/_normalize.sass */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
 
-/* line 173, ../sass/shared/_normalize.sass */
+/* line 173, ../../../sass/shared/_normalize.sass */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
-/* line 178, ../sass/shared/_normalize.sass */
+/* line 178, ../../../sass/shared/_normalize.sass */
 input[type="search"] {
   -webkit-appearance: textfield;
   box-sizing: content-box;
 }
 
-/* line 183, ../sass/shared/_normalize.sass */
+/* line 183, ../../../sass/shared/_normalize.sass */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 188, ../sass/shared/_normalize.sass */
+/* line 188, ../../../sass/shared/_normalize.sass */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
   padding: 0.35em 0.625em 0.75em;
 }
 
-/* line 194, ../sass/shared/_normalize.sass */
+/* line 194, ../../../sass/shared/_normalize.sass */
 legend {
   border: 0;
   padding: 0;
 }
 
-/* line 199, ../sass/shared/_normalize.sass */
+/* line 199, ../../../sass/shared/_normalize.sass */
 textarea {
   overflow: auto;
 }
 
-/* line 203, ../sass/shared/_normalize.sass */
+/* line 203, ../../../sass/shared/_normalize.sass */
 optgroup {
   font-weight: bold;
 }
 
-/* line 207, ../sass/shared/_normalize.sass */
+/* line 207, ../../../sass/shared/_normalize.sass */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 212, ../sass/shared/_normalize.sass */
+/* line 212, ../../../sass/shared/_normalize.sass */
 td,
 th {
   padding: 0;
+}
+
+/* line 1, ../../../sass/layout/_layout-base.sass */
+div {
+  color: red;
 }

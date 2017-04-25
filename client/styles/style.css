@@ -1,0 +1,466 @@
+/* line 1, ../../mdcl-styles/sass/shared/_normalize.sass */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/* line 7, ../../mdcl-styles/sass/shared/_normalize.sass */
+body {
+  margin: 0;
+}
+
+/* line 11, ../../mdcl-styles/sass/shared/_normalize.sass */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 26, ../../mdcl-styles/sass/shared/_normalize.sass */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+/* line 34, ../../mdcl-styles/sass/shared/_normalize.sass */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 39, ../../mdcl-styles/sass/shared/_normalize.sass */
+[hidden],
+template {
+  display: none;
+}
+
+/* line 44, ../../mdcl-styles/sass/shared/_normalize.sass */
+a {
+  background-color: transparent;
+}
+
+/* line 48, ../../mdcl-styles/sass/shared/_normalize.sass */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* line 53, ../../mdcl-styles/sass/shared/_normalize.sass */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 57, ../../mdcl-styles/sass/shared/_normalize.sass */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 62, ../../mdcl-styles/sass/shared/_normalize.sass */
+dfn {
+  font-style: italic;
+}
+
+/* line 66, ../../mdcl-styles/sass/shared/_normalize.sass */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 71, ../../mdcl-styles/sass/shared/_normalize.sass */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/* line 76, ../../mdcl-styles/sass/shared/_normalize.sass */
+small {
+  font-size: 80%;
+}
+
+/* line 80, ../../mdcl-styles/sass/shared/_normalize.sass */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 88, ../../mdcl-styles/sass/shared/_normalize.sass */
+sup {
+  top: -0.5em;
+}
+
+/* line 92, ../../mdcl-styles/sass/shared/_normalize.sass */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 96, ../../mdcl-styles/sass/shared/_normalize.sass */
+img {
+  border: 0;
+}
+
+/* line 100, ../../mdcl-styles/sass/shared/_normalize.sass */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 104, ../../mdcl-styles/sass/shared/_normalize.sass */
+figure {
+  margin: 1em 40px;
+}
+
+/* line 108, ../../mdcl-styles/sass/shared/_normalize.sass */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 113, ../../mdcl-styles/sass/shared/_normalize.sass */
+pre {
+  overflow: auto;
+}
+
+/* line 117, ../../mdcl-styles/sass/shared/_normalize.sass */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* line 125, ../../mdcl-styles/sass/shared/_normalize.sass */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  border: none;
+}
+
+/* line 136, ../../mdcl-styles/sass/shared/_normalize.sass */
+button {
+  overflow: visible;
+}
+
+/* line 140, ../../mdcl-styles/sass/shared/_normalize.sass */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 145, ../../mdcl-styles/sass/shared/_normalize.sass */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 153, ../../mdcl-styles/sass/shared/_normalize.sass */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 158, ../../mdcl-styles/sass/shared/_normalize.sass */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 164, ../../mdcl-styles/sass/shared/_normalize.sass */
+input {
+  line-height: normal;
+}
+
+/* line 168, ../../mdcl-styles/sass/shared/_normalize.sass */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 174, ../../mdcl-styles/sass/shared/_normalize.sass */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/* line 179, ../../mdcl-styles/sass/shared/_normalize.sass */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+
+/* line 184, ../../mdcl-styles/sass/shared/_normalize.sass */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 189, ../../mdcl-styles/sass/shared/_normalize.sass */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 195, ../../mdcl-styles/sass/shared/_normalize.sass */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 200, ../../mdcl-styles/sass/shared/_normalize.sass */
+textarea {
+  overflow: auto;
+}
+
+/* line 204, ../../mdcl-styles/sass/shared/_normalize.sass */
+optgroup {
+  font-weight: bold;
+}
+
+/* line 208, ../../mdcl-styles/sass/shared/_normalize.sass */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 213, ../../mdcl-styles/sass/shared/_normalize.sass */
+td,
+th {
+  padding: 0;
+}
+
+/* line 3, ../../mdcl-styles/sass/layout/_front-page.sass */
+.mdcl-hero {
+  height: 60VH;
+  position: relative;
+  text-align: center;
+  display: flex;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  padding: 5% 0;
+}
+
+/* line 21, ../../mdcl-styles/sass/layout/_front-page.sass */
+.hero-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  z-index: 1;
+  background-image: url(https://d2cankni8sodj9.cloudfront.net/-mNpWH0kJoOfjNvy6Y7bXoTod5XVOCL4XNJQnQ.jpeg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* line 37, ../../mdcl-styles/sass/layout/_front-page.sass */
+.hero-image:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(248, 247, 216, 0.7);
+  z-index: -1;
+}
+
+/* line 48, ../../mdcl-styles/sass/layout/_front-page.sass */
+.hero-text {
+  align-self: center;
+}
+/* line 50, ../../mdcl-styles/sass/layout/_front-page.sass */
+.hero-text h1 {
+  font-size: 24px;
+  display: block;
+  width: 70%;
+  margin: 0.67em auto;
+  font-size: 40px;
+  width: 100%;
+}
+
+/* line 61, ../../mdcl-styles/sass/layout/_front-page.sass */
+.logo-box .front-page-logo {
+  height: 100px;
+  width: 100px;
+  height: 200px;
+  width: 200px;
+}
+
+/* line 74, ../../mdcl-styles/sass/layout/_front-page.sass */
+.site-main {
+  margin: 0px;
+}
+
+/* line 81, ../../mdcl-styles/sass/layout/_front-page.sass */
+.mdcl-featured-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 20px;
+}
+
+/* line 85, ../../mdcl-styles/sass/layout/_front-page.sass */
+.icon {
+  font-size: 40px;
+}
+
+/* line 88, ../../mdcl-styles/sass/layout/_front-page.sass */
+.feature-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* line 91, ../../mdcl-styles/sass/layout/_front-page.sass */
+.feature-container .one-quarter {
+  width: 100%;
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+/* line 97, ../../mdcl-styles/sass/layout/_front-page.sass */
+.feature-container .one-quarter .one-quarter {
+  width: 25%;
+  width: 80%;
+}
+
+/* line 102, ../../mdcl-styles/sass/layout/_front-page.sass */
+.featured-heading {
+  padding: 1px;
+  margin: 2px;
+  font-size: 24px;
+}
+
+/* line 108, ../../mdcl-styles/sass/layout/_front-page.sass */
+.feature {
+  align-self: flex-start;
+  margin: 0 2%;
+}
+
+/* line 113, ../../mdcl-styles/sass/layout/_front-page.sass */
+.login-area {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+/* line 117, ../../mdcl-styles/sass/layout/_front-page.sass */
+.login-area .one-third {
+  width: 100%;
+}
+
+/* line 128, ../../mdcl-styles/sass/layout/_front-page.sass */
+.sign-up {
+  color: #FFF;
+  background: #ED8A78;
+}
+
+/* line 134, ../../mdcl-styles/sass/layout/_front-page.sass */
+.one-third input {
+  border: 0;
+  padding: 0;
+  background: white;
+  box-shadow: none;
+  text-shadow: none;
+  font-size: 1em;
+  text-align: left;
+}
+
+/* line 146, ../../mdcl-styles/sass/layout/_front-page.sass */
+.white-signup {
+  background: white;
+  padding: 10px;
+  color: #666;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* line 153, ../../mdcl-styles/sass/layout/_front-page.sass */
+.sign-up-btn {
+  text-align: center;
+  background-color: #C5DD56;
+}
+/* line 156, ../../mdcl-styles/sass/layout/_front-page.sass */
+.sign-up-btn .sign-up {
+  background-color: #C5DD56;
+  color: white;
+}
+
+/* line 160, ../../mdcl-styles/sass/layout/_front-page.sass */
+.txt {
+  text-align: center;
+}
+
+/* line 163, ../../mdcl-styles/sass/layout/_front-page.sass */
+.mdcl-blurb {
+  margin: 100px auto;
+  margin: 100px;
+  text-align: center;
+}
+
+/* line 171, ../../mdcl-styles/sass/layout/_front-page.sass */
+.blurb-container {
+  width: 80%;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+/* line 177, ../../mdcl-styles/sass/layout/_front-page.sass */
+.blurb-container h2 {
+  font-size: 1.3em;
+  font-size: 1.5em;
+}

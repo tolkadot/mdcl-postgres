@@ -36,7 +36,6 @@ flex-direction: row;
 }
 .sign-in-button {
   align-self: flex-start;
-    color:#F1552E;
     width:20%;
     padding: 0 40px;
 }
@@ -47,7 +46,6 @@ flex-direction: row;
   background-color: lightgray;
 }
 button {
-  background-color: #699C1C;
   border:none;
   color: white;
 }

@@ -1,0 +1,180 @@
+
+
+.mdcl-hero
+    height: 60VH
+    position: relative
+    text-align: center
+    display: flex
+    -webkit-box-align: center
+    -moz-box-align: center
+    -webkit-align-items: center
+    -ms-flex-align: center
+    align-items: center
+    -webkit-box-pack: center
+    -moz-box-pack: center
+    -ms-flex-pack: center
+    -webkit-justify-content: center
+    justify-content: center
+    padding: 5% 0
+
+
+.hero-image
+    position: absolute
+    top: 0
+    left: 0
+    height: 100%
+    width: 100%
+    -webkit-background-size: cover
+    -moz-background-size: cover
+    -o-background-size: cover
+    background-size: cover
+    background-position: center center
+    z-index: 1
+    background-image: url(https://d2cankni8sodj9.cloudfront.net/-mNpWH0kJoOfjNvy6Y7bXoTod5XVOCL4XNJQnQ.jpeg)
+    @include make-flex-column
+
+
+.hero-image:before
+    content: ''
+    position: absolute
+    top: 0
+    bottom: 0
+    right: 0
+    left: 0
+    background: rgba(248, 247, 216, 0.7)
+    z-index: -1
+
+
+.hero-text
+    align-self: center
+    h1
+        font-size: 24px
+        display: block
+        width: 70%
+        margin: .67em auto
+        @include breakpoint($smallScreen)
+        font-size: 40px
+        width: 100%
+
+
+.logo-box
+    .front-page-logo
+        display:block
+        height: 100px
+        width: 100px
+        margin:auto
+        @include breakpoint($smallScreen)
+        height: 200px
+        width: 200px
+
+.tolka-logo-link
+    display:block
+
+
+.site-main
+    margin: 0px
+
+.site-branding
+    display:none
+
+
+.mdcl-featured-text
+    @include make-flex-row
+    margin: 20px
+
+.icon
+    font-size: 40px
+
+.feature-container
+    width: 80%
+    @include make-flex-column
+    .one-quarter
+        width: 100%
+        @include breakpoint($smallScreen)
+        margin: auto
+        width: 100%
+        @include make-flex-row
+        .one-quarter
+            width: 25%
+            @include breakpoint($largeScreen)
+            width: 80%
+
+.featured-heading
+    h3
+    padding: 1px
+    margin: 2px
+    font-size: 24px
+
+.feature
+    align-self: flex-start
+    margin: 0 2%
+
+
+.login-area
+    width: 80%
+    @include make-flex-column
+    justify-content: flex-start
+    .one-third
+        display:block
+        width: 100%
+    @include breakpoint($smallScreen)
+    width: 50%
+    @include make-flex-row
+    .one-third
+        display:block
+
+
+
+.sign-up
+    color: #FFF
+    background: #ED8A78
+
+
+.one-third
+    input
+        border: 0
+        padding: 0
+        background: white
+        box-shadow: none
+        text-shadow: none
+        font-size: 1em
+        text-align: left
+
+
+
+
+.white-signup
+    background: white
+    padding: 10px
+    color: #666
+    border: 1px solid #ccc
+    border-radius: 3px
+
+.sign-up-btn
+    text-align: center
+    background-color: #C5DD56
+    .sign-up
+        background-color: #C5DD56
+        color: white
+
+.txt
+    text-align: center
+
+.mdcl-blurb
+    margin: 100px auto
+    @include breakpoint($smallScreen)
+    margin: 100px
+    text-align: center
+    @include breakpoint($smallScreen)
+
+
+.blurb-container
+    width: 80%
+    @include breakpoint($smallScreen)
+    width: 60%
+    margin: auto
+    text-align: center
+    h2
+        font-size: 1.3em
+        @include breakpoint($smallScreen)
+        font-size: 1.5em
