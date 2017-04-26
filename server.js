@@ -29,6 +29,7 @@ app.get('/', function(req, res){
 
 app.post('/api/user/create', userController.createUser);
 app.post('/api/user/login', userController.logIn);
+app.post('/api/user/loginNew', userController.loginNewUser);
 
 db.sync().then(function(){
     app.listen(3000, function(){
